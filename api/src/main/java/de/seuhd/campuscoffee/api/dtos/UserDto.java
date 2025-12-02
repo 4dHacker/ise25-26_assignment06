@@ -1,11 +1,16 @@
 package de.seuhd.campuscoffee.api.dtos;
 
-import jakarta.validation.constraints.*;
-import lombok.Builder;
+import java.time.LocalDateTime;
+
 import org.jspecify.annotations.NonNull;
 import org.jspecify.annotations.Nullable;
 
-import java.time.LocalDateTime;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Size;
+import lombok.Builder;
+
 
 /**
  * DTO record for user metadata.
